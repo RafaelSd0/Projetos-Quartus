@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rafae/OneDrive/Ambiente de Trabalho/projetos/Projetos Quartus/Teste/Teste.vhd
+source_file = 1, C:/Users/rafae/OneDrive/Ambiente de Trabalho/projetos/Projetos Quartus/Teste/Waveform.vwf
+source_file = 1, C:/Users/rafae/OneDrive/Ambiente de Trabalho/projetos/Projetos Quartus/Teste/db/Teste.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Teste
+instance = comp, \b~I , b, Teste, 1
+instance = comp, \a~I , a, Teste, 1
+instance = comp, \o~0 , o~0, Teste, 1
+instance = comp, \o~I , o, Teste, 1

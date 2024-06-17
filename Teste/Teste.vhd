@@ -1,0 +1,23 @@
+-- Porta logida and
+--
+-- Entradas A e B
+--
+-- Saida O
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Teste is port
+(
+a : in std_logic;
+b : in std_logic;
+o : out std_logic
+);
+end Teste;
+
+architecture hardware of Teste is
+begin
+
+o <= a AND b;
+
+end hardware;
